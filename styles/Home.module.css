@@ -8,6 +8,8 @@
 }
 
 .main {
+  margin-left: 15%;
+  margin-right: 15%;
   padding: 5rem 0;
   flex: 1;
   display: flex;
@@ -36,14 +38,14 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #000;
   text-decoration: none;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .title {
@@ -63,13 +65,14 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #f4f4f4;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
 
 .grid {
   display: flex;
